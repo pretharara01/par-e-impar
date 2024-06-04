@@ -1,0 +1,15 @@
+for i in range(1,5):
+  numero = int(input("digite um numero: "))
+  if numero ==0:
+    print ("neutro")
+  elif numero % 2==0:
+    print ("par")
+  else:
+    print ("impar")
+
+  if numero >=1:
+    print ("positivo")
+  else:
+    if numero <0:
+      print ("negativo")
+     
